@@ -140,6 +140,17 @@ blockquote {
   font-weight: 600;
 }
 
+.heading-tertiary {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.heading-tertiary span {
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
 
 
 

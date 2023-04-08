@@ -95,7 +95,7 @@ const Hero2 = () => {
               <div className="hero2-card-icon">
                 <BsFillStarFill color="#c3512f"></BsFillStarFill>
                 <h3 className="heading-tertiary">
-                  The best <span>reservation</span>
+                 <span>reservation</span>
                 </h3>
               </div>
               <p>

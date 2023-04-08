@@ -28,3 +28,30 @@
 .hero2-content p {
     padding: 10px 0;
 }
+
+.hero2-card-container {
+    display: flex;
+    gap: 5%;
+    padding-top: 50px;
+    margin-left: 2%;
+}
+
+.hero2-card {
+    width: 30%;
+}
+
+.hero2-card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero2-card-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero2-card-content p {
+    padding-top: 5px;
+}
