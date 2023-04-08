@@ -1,0 +1,30 @@
+.hero2-container {
+    display: flex;
+    gap: 5%;
+}
+
+.hero2-carousel {
+    width: 65%;
+    margin-bottom: 50px;
+    margin-left: 2%;
+}
+
+.hero2-carousel img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+    color: var(--color-primary) !important;
+}
+
+.hero2-content {
+    width: 30%;
+}
+
+.hero2-content p {
+    padding: 10px 0;
+}
