@@ -5,28 +5,28 @@
     border-bottom: 1px solid #414543;
 }
 
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 90px;
-}
+} */
 
-.nav-menu {
+/* .nav-menu {
     display: flex;
     align-items: center;
-}
+} */
 
-.nav-menu li {
+/* .nav-menu li {
     padding: 0 15px;
-}
+} */
 
-.nav-menu .nav-link {
+/* .nav-menu .nav-link {
     color: var(--color-white);
     font-size: 20px;
     font-weight: 500px;
     transition: all 0.5s ease;
-}
+} */
 
 .nav-menu .nav-link:hover {
     color: var(--color-primary);
