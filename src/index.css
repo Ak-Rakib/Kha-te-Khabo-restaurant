@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+ @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap");
+
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+} 
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

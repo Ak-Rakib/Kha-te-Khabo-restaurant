@@ -17,7 +17,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle"
+              className="btn btn-outline btn-warning btn-circle"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle">
+          <button className="btn btn-outline btn-warning btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -88,7 +88,7 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <button className="btn btn-ghost btn-circle">
+          <button className="btn btn-outline btn-warning btn-circle">
             <div className="indicator">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

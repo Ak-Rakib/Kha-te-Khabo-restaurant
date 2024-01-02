@@ -4,7 +4,7 @@ import Hero2 from './Hero2/Hero2';
 
 const Home = () => {
     return (
-        <div>
+        <div className='pr-4 pl-4'>
             <Hero></Hero>
             <Hero2></Hero2>
         </div>
