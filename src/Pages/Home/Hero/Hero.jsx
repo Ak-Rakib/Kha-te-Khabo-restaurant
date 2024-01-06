@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <>
       <div
-        className="hero min-h-screen mb-0 pb-0"
+        className="hero min-h-screen"
         style={{
-          backgroundImage: "url(https://i.ibb.co/zRHv7wM/pexels-waldemar-2290070.jpg)",
+          backgroundImage: "url(https://i.ibb.co/TbsfNwb/pexels-veer-sajid-15580730.jpg)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>

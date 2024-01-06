@@ -31,7 +31,7 @@ const Hero2 = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="hero2-container">
+        <div className="hero2-container flex-none md:flex gap-3">
           <div className="hero2-carousel">
             <div>
               <Slider {...settings}>

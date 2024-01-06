@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
               <li onClick={clickHandler}>
                 <NavLink className="nav-link" to="/about">
-                  About
+                  Booking Page
                 </NavLink>
               </li>
               <li onClick={clickHandler}>
