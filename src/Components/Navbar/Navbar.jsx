@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
-
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const clickHandler = () => {
@@ -72,7 +71,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-outline btn-warning btn-circle">
+          <button className="btn btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -88,7 +87,7 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <button className="btn btn-outline btn-warning btn-circle">
+          <button className="btn btn-circle">
             <div className="indicator">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
