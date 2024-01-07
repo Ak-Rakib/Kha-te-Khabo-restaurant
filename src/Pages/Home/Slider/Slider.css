@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+
+.number-slide1 {
+  background-image: url("https://i.ibb.co/zRHv7wM/pexels-waldemar-2290070.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.number-slide2 {
+    background-image: url("https://i.ibb.co/TbsfNwb/pexels-veer-sajid-15580730.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.number-slide3 {
+    background-image: url("https://i.ibb.co/BcDdhZy/pexels-taryn-elliott-7172067.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.number-slide4 {
+    background-image: url("https://i.ibb.co/M22DsvN/rice2.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.number-slide5 {
+    background-image: url("https://i.ibb.co/xXDLJSt/rice4.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+.number-slide6 {
+    background-image: url("https://i.ibb.co/YhhsW0d/pexels-cats-coming-955137.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -6,7 +6,7 @@ import Booking from './Pages/Booking/Booking'
 import Delivery from "./Pages/Delivery/Delivery"
 import Menu from "./Pages/Menu/Menu"
 import Contact from "./Pages/Contact/Contact"
-import Hero from "./Pages/Home/Hero/Hero"
+import Slider from "./Pages/Home/Slider/Slider"
 
 
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <Hero></Hero>
+      <Slider></Slider>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<Booking/>}></Route>
