@@ -9,7 +9,7 @@ const Form = () => {
         <div className="hero-content flex-col lg:flex-row-reverse gap-20">
           <div className="text-center lg:text-left">
             <p className="text-yellow-500 text-2xl">Book a Table</p>
-            <h1 className="text-4xl mb-2">
+            <h1 className="text-5xl font-bold text-gray-500 mb-2">
               Book Your Table For Private Dinners & Happy Hours
             </h1>
             <p>
