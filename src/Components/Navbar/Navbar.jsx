@@ -10,13 +10,13 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-200">
         <div className="navbar-start">
           <div className="dropdown">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-outline btn-warning btn-circle"
+              className="btn  btn-circle"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

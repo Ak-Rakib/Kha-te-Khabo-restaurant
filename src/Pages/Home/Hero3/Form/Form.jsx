@@ -5,53 +5,11 @@ import React from "react";
 const Form = () => {
   return (
     <>
-      {/* <form action="">
-        <ul className="bg-yellow-400 p-9 mt-0 mb-8">
-          <li className="mb-2">
-            <input
-              type="text"
-              placeholder="Name"
-              className="input input-bordered input-warning w-full max-w-xs"
-            />
-            <FontAwesomeIcon icon={faUser} />
-          </li>
-          <li className="mb-2">
-            <input
-              type="text"
-              placeholder="Email"
-              className="input input-bordered input-warning w-full max-w-xs"
-            />
-          </li>
-          <li className="mb-2">
-            <input
-              type="text"
-              placeholder="mobile"
-              className="input input-bordered input-warning w-full max-w-xs"
-            />
-          </li>
-          <li className="mb-2">
-            <input
-              type="text"
-              placeholder="Date"
-              className="input input-bordered input-warning w-full max-w-xs"
-            />
-          </li>
-          <li className="mb-2">
-            <input
-              type="text"
-              placeholder="Time"
-              className="input input-bordered input-warning w-full max-w-xs"
-            />
-          </li>
-          <input className="btn" type="submit" value="submit" />
-        </ul>
-      </form> */}
-
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero min-h-screen bg-base-200 md:pr-9 pl-9">
+        <div className="hero-content flex-col lg:flex-row-reverse gap-20">
           <div className="text-center lg:text-left">
             <p className="text-yellow-500 text-2xl">Book a Table</p>
-            <h1 className="text-4xl">
+            <h1 className="text-4xl mb-2">
               Book Your Table For Private Dinners & Happy Hours
             </h1>
             <p>
@@ -114,7 +72,7 @@ const Form = () => {
                 />
               </div>
               <div className="form-control mt-6">
-                <button className="btn  btn-warning btn-outline">Submit</button>
+                <button className="btn  btn-warning">Submit</button>
               </div>
             </form>
           </div>
